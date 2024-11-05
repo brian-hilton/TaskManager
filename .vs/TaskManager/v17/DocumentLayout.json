@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brian\\source\\repos\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\AppContext.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Models\\AppContext.cs",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\AppContext.cs",
+              "RelativeToolTip": "TaskManager\\Models\\AppContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:28:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskList.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskList.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Models\\TaskList.cs",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskList.cs",
+              "RelativeToolTip": "TaskManager\\Models\\TaskList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:27:41.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Models\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskModel.cs",
+              "RelativeToolTip": "TaskManager\\Models\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:27:35.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskManager",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeDocumentMoniker": "TaskManager\\TaskManager.csproj",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeToolTip": "TaskManager\\TaskManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T23:26:56.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\appsettings.json",
+              "RelativeToolTip": "TaskManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T23:25:57.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Program.cs",
+              "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeToolTip": "TaskManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T23:21:43.024Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
