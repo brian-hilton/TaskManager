@@ -127,6 +127,7 @@ C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.csproj.CoreCompileInputs.cache
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.sourcelink.json
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\brian\source\repos\TaskManager\TaskManager\obj\Debug\net8.0\staticwebassets\msbuild.TaskManager.Microsoft.AspNetCore.StaticWebAssets.props

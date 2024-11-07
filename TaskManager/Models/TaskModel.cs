@@ -7,9 +7,14 @@ namespace TaskManager.Models;
 
 public partial class TaskModel
 {
-    public int EntityId { get; set; }
-
-    public string Status { get; set; }
-
+    public int Id { get; set; } 
+    public string Title { get; set; } = string.Empty;
+    public string Status { get; set; } = "Incomplete";
     public string Description { get; set; }
+    public DateTime CreatedDate { get; set; }
+    public DateTime UpdatedDate { get; set; }
+
+    // Foreign key and Navigation property
+    public int TaskListId { get; set; }
+    public TaskList TaskList {  get; set; }
 }

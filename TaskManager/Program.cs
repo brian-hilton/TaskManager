@@ -8,7 +8,7 @@ var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnect
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<testContext>((c) =>
+builder.Services.AddDbContext<AppDbContext>((c) =>
 {
     c.UseSqlServer(ConnectionString);
 });
@@ -25,17 +25,35 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Endpoints
-app.MapGet("/getAllTasks", ([FromServices] testContext db) =>
+app.MapGet("/getAllTasks", ([FromServices] AppDbContext db) =>
 {
     var tasks = db.Set<TaskModel>().ToList();
     return tasks;
 });
 
-app.MapPost("/postTask", ([FromServices] testContext db, [FromBody] TaskModel model) =>
+app.MapGet("/getAllUsers", ([FromServices] AppDbContext db) =>
+{
+    var users = db.Set<User>().ToList();
+    return users;
+});
+
+app.MapPost("/postTask", ([FromServices] AppDbContext db, [FromBody] TaskModel model) =>
 {
     db.Add(model);
     db.SaveChanges();
     return model;
+});
+
+app.MapPost("/postUser", async ([FromServices] AppDbContext db, [FromBody] User user) =>
+{
+    if (user == null)
+    {
+        return Results.BadRequest("User data is required");
+    }
+
+    db.Users.Add(user);
+    await db.SaveChangesAsync();
+    return Results.Created($"/postUser/{user.Id}", user);
 });
 
 app.Run();
