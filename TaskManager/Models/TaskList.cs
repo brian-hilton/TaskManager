@@ -1,4 +1,6 @@
-﻿namespace TaskManager.Models
+﻿using System.Text.Json.Serialization;
+
+namespace TaskManager.Models
 {
     public class TaskList
     {
@@ -10,7 +12,7 @@
 
         // Foreign Key and Navigation property
         public int? UserId { get; set; }
-        public User? User { get; set; }
-        public ICollection<TaskModel>? TaskModels { get; set; } = new List<TaskModel>();
+        [JsonIgnore] public User? User { get; set; }
+        [JsonIgnore] public ICollection<TaskModel>? TaskModels { get; set; } = new List<TaskModel>();
     }
 }

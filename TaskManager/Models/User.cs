@@ -1,4 +1,6 @@
-﻿namespace TaskManager.Models
+﻿using System.Text.Json.Serialization;
+
+namespace TaskManager.Models
 {
     public class User
     {
@@ -9,6 +11,6 @@
         public string? Role { get; set; } = "User";
         public DateTime? CreatedAt { get; set; } = DateTime.Now;
         public DateTime? LastUpdatedAt { get; set; } = DateTime.Now;
-        public ICollection<TaskList>? TaskLists { get; set; }
+        [JsonIgnore] public virtual ICollection<TaskList>? TaskLists { get; set; } = new List<TaskList>();
     }
 }
