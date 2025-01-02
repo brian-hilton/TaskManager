@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\brian\\source\\repos\\TaskManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\dtos\\tasklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dtos\\tasklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\dtos\\taskmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dtos\\taskmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\dtos\\tasklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dtos\\tasklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3211E37E-943B-4873-849B-A233881BAF7C}|TaskManager\\TaskManager.csproj|c:\\users\\brian\\source\\repos\\taskmanager\\taskmanager\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,33 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
               "RelativeDocumentMoniker": "TaskManager\\Program.cs",
               "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
               "RelativeToolTip": "TaskManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T23:21:43.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TaskModelDTO.cs",
               "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\DTOs\\TaskModelDTO.cs",
               "RelativeDocumentMoniker": "TaskManager\\DTOs\\TaskModelDTO.cs",
               "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\DTOs\\TaskModelDTO.cs",
               "RelativeToolTip": "TaskManager\\DTOs\\TaskModelDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T20:24:17.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskModel.cs",
               "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskModel.cs",
               "RelativeDocumentMoniker": "TaskManager\\Models\\TaskModel.cs",
@@ -84,17 +84,18 @@
               "RelativeToolTip": "TaskManager\\Models\\TaskModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T23:27:35.002Z"
+              "WhenOpened": "2024-11-05T23:27:35.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TaskListDTO.cs",
               "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\DTOs\\TaskListDTO.cs",
               "RelativeDocumentMoniker": "TaskManager\\DTOs\\TaskListDTO.cs",
               "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\DTOs\\TaskListDTO.cs",
               "RelativeToolTip": "TaskManager\\DTOs\\TaskListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T19:58:51.549Z",
               "EditorCaption": ""
@@ -109,7 +110,8 @@
               "RelativeToolTip": "TaskManager\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T17:04:55.297Z"
+              "WhenOpened": "2024-11-06T17:04:55.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "TaskList.cs",
               "DocumentMoniker": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskList.cs",
               "RelativeDocumentMoniker": "TaskManager\\Models\\TaskList.cs",
@@ -145,7 +147,8 @@
               "RelativeToolTip": "TaskManager\\Models\\TaskList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T23:27:41.848Z"
+              "WhenOpened": "2024-11-05T23:27:41.848Z",
+              "EditorCaption": ""
             }
           ]
         }

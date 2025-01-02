@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSvelte", policy =>
     {
-        policy.WithOrigins("http://localhost:8080")
+        policy.WithOrigins("http://localhost:5173")
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
@@ -88,6 +88,26 @@ app.MapPost("/postTask", ([FromServices] AppDbContext db, [FromBody] TaskModel m
     db.Add(model);
     db.SaveChanges();
     return model;
+});
+
+// Delete task
+app.MapDelete("/users/{userId}/tasklists/{taskListId}/tasks/{taskId}", async ([FromServices] AppDbContext db, int userId, int taskListId, int taskId) =>
+{
+    var taskList = await db.TaskLists
+        .Include(tl => tl.TaskModels)
+        .FirstOrDefaultAsync(tl => tl.UserId == userId && tl.Id == taskListId);
+
+    if (taskList == null)
+        return Results.NotFound($"Task list with ID {taskListId} for User {userId} not found.");
+
+    var task = taskList.TaskModels.FirstOrDefault(t => t.Id == taskId);
+    if (task == null)
+        return Results.NotFound($"Task with ID {taskId} not found.");
+
+    taskList.TaskModels.Remove(task);
+    await db.SaveChangesAsync();
+
+    return Results.NoContent();
 });
 
 // Create user

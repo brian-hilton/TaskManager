@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "TaskManager\\Program.cs",
               "ToolTip": "C:\\Users\\brian\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
               "RelativeToolTip": "TaskManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T23:21:43.024Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "TaskManager\\DTOs\\TaskModelDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T20:24:17.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T20:24:17.412Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "TaskManager\\DTOs\\TaskListDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T19:58:51.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T19:58:51.549Z"
             },
             {
               "$type": "Document",
