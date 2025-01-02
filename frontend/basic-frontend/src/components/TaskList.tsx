@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-// Define the structure of the task list as per the DTO
 interface TaskList {
   name: string;
   owner: string | null;
@@ -16,7 +15,7 @@ const TaskLists: React.FC = () => {
   useEffect(() => {
     const fetchTaskLists = async () => {
       try {
-        const userId = 1; // Example: hardcoded user ID
+        const userId = 1;
         const response = await axios.get<TaskList[]>(
           `https://localhost:7117/users/${userId}/tasklists`
         );
@@ -28,7 +27,7 @@ const TaskLists: React.FC = () => {
     };
 
     fetchTaskLists();
-  }, []); // Empty array means this effect runs only once when the component mounts
+  }, []);
 
   if (error) {
     return <div>{error}</div>;
